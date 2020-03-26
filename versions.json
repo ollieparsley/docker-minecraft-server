@@ -1,0 +1,20 @@
+{
+  "vanilla": {
+    "1.15.2": {
+      "supported": true,
+      "download_url": "https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar",
+      "server_properties": "resources/vanilla/1.15/server.properties",
+      "default_env_variables": "resources/vanilla/1.15/default.env",
+      "launcher": "resources/vanilla/launcher.sh"
+    },
+    "1.15.1": {
+      "supported": true,
+      "download_url": "https://launcher.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/server.jar",
+      "server_properties": "resources/vanilla/1.15/server.properties",
+      "default_env_variables": "resources/vanilla/1.15/default.env",
+      "launcher": "resources/vanilla/launcher.sh"
+    }
+  }
+}
+
+
