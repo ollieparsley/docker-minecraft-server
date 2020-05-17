@@ -7,10 +7,8 @@ ARG default_env_location
 ARG launcher_location
 
 # APK updates
-RUN apk update
-RUN apk add ca-certificates
+RUN apk --no-cache add ca-certificates wget gettext libintl bash python
 RUN update-ca-certificates
-RUN apk add wget gettext libintl bash python
 
 # Download the server
 RUN wget $download_url -O /server.jar
