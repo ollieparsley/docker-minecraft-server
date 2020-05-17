@@ -57,6 +57,6 @@ for category,versions in categories.items():
 
 
 # Output tags to file
-with open(sys.argv[1]) as f, open('tags.txt', 'w') as out:
+with open('tags.txt', 'w') as out:
     for tag in tags:
         out.write(tag+'\n')
