@@ -5,6 +5,7 @@ help:
 	@echo ""
 	@echo "make build"
 	@echo "make publish"
+	@echo "make run (for testing purposes)"
 	@echo ""
 
 default: help
