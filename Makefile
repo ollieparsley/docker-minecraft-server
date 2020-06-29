@@ -16,7 +16,7 @@ build:
 publish:
 	@docker login -u $(DOCKER_USERNAME) -p $(DOCKER_PASSWORD)
 ifneq ("$(wildcard tags.txt)","")
-	xargs < tags.txt -n 1 docker publish
+	xargs < tags.txt -n 1 docker push
 else
 	@echo "No tags.txt. Please run build target first"
 	exit 1

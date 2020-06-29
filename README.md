@@ -11,7 +11,7 @@ You can customise the minecraft server by using any of the following environment
 
 ### Environment variables
 
-These are the available variables for `1.15.2` and their defaults if not set. You can see defaults for each version in `resources/vanilla/<VERSION>`
+These are the available variables for `1.16.1`, `1.15.2`, `1.15.1` and their defaults if not set. You can see defaults for each version in `resources/vanilla/<VERSION>`
 
 ```
 MC_ALLOW_FLIGHT=false
