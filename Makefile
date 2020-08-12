@@ -23,5 +23,5 @@ else
 endif
 
 run:
-	docker run -p 25565:25565 -e MC_SERVER_NAME="foo" ollieparsley/minecraft-server:latest
+	docker run -p 25565:25565 -e MC_SERVER_NAME="foo" -e MC_MAX_PLAYERS="4" ollieparsley/minecraft-server:1.16.2
 
