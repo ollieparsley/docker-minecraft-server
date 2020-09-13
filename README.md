@@ -13,6 +13,15 @@ You can customise the minecraft server by using any of the following environment
 
 These are the available variables for `1.16.3`, `1.16.2`, `1.16.1`, `1.15.2`, `1.15.1` and their defaults if not set. You can see defaults for each version in `resources/vanilla/<VERSION>`
 
+#### Memory
+
+You can change the mx and ms jvm memory settings using the following 2 environment variables:
+
+```
+MC_MEM_MX=1024M
+MC_MEM_MS=1024M
+```
+
 #### Base
 
 ```

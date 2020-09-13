@@ -27,11 +27,11 @@ WORKDIR /data
 COPY resources/vanilla/eula.txt eula.txt
 
 # Copy launcher
-COPY $launcher_location launcher
+COPY $launcher_location /bin/launcher
 
 # Default environment variables for the server.properties file
 COPY resources/env.py /tmp/env.py
 COPY $default_env_location /tmp/default.env
 
 # Run the server
-ENTRYPOINT ["./launcher"]
+ENTRYPOINT ["/bin/launcher"]
