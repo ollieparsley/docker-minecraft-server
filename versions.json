@@ -34,6 +34,13 @@
       "server_properties": "resources/vanilla/1.16.2/server.properties",
       "default_env_variables": "resources/vanilla/1.16.2/default.env",
       "launcher": "resources/vanilla/launcher.sh"
+    },
+    "1.16.4": {
+      "supported": true,
+      "download_url": "https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar",
+      "server_properties": "resources/vanilla/1.16.2/server.properties",
+      "default_env_variables": "resources/vanilla/1.16.2/default.env",
+      "launcher": "resources/vanilla/launcher.sh"
     }
   }
 }
