@@ -9,9 +9,20 @@ For basic Minecraft server usage you can check out the available images here: ht
 
 You can customise the minecraft server by using any of the following environment variables to override settings in the `server.properties` folder.
 
+## Versions
+
+These are the supported minecraft versions:
+
+- `1.16.4`
+- `1.16.3`
+- `1.16.2`
+- `1.16.1`
+- `1.15.2`
+- `1.15.1`
+
 ### Environment variables
 
-These are the available variables for `1.16.3`, `1.16.2`, `1.16.1`, `1.15.2`, `1.15.1` and their defaults if not set. You can see defaults for each version in `resources/vanilla/<VERSION>`
+These are the available variables and their defaults if not set. You can see defaults for each version in `resources/vanilla/<VERSION>`
 
 #### Memory
 
